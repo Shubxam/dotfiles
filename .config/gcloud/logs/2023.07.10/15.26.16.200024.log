@@ -1,0 +1,14 @@
+2023-07-10 15:26:16,201 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2023-07-10 15:26:16,384 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'list']
+2023-07-10 15:26:16,401 DEBUG    root            Running [gcloud.auth.list] with arguments: [--filter: "status=ACTIVE", --format: "value(account)", --quiet: "True", --verbosity: "warning"]
+2023-07-10 15:26:16,406 DEBUG    root            Chosen display Format:    table[title='Credentialed Accounts'](
+        status.yesno(yes='*', no=''):label=ACTIVE,
+        account
+    ) value(account)
+2023-07-10 15:26:16,409 INFO     root            Display format: "    table[title='Credentialed Accounts'](
+        status.yesno(yes='*', no=''):label=ACTIVE,
+        account
+    ) value(account)"
+2023-07-10 15:26:16,410 INFO     ___FILE_ONLY___ shubham@tokenmetrics.com
+
+2023-07-10 15:26:16,558 DEBUG    root            Metrics reporting process started...

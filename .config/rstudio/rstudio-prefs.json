@@ -1,0 +1,54 @@
+{
+    "jobs_tab_visibility": "shown",
+    "restore_source_documents": false,
+    "initial_working_directory": "~",
+    "restore_last_project": false,
+    "num_spaces_for_tab": 4,
+    "auto_detect_indentation": true,
+    "relative_line_numbers": true,
+    "enable_text_drag": false,
+    "highlight_r_function_calls": true,
+    "rainbow_parentheses": true,
+    "restore_source_document_cursor_position": false,
+    "show_help_tooltip_on_idle": true,
+    "editor_keybindings": "vim",
+    "panes": {
+        "quadrants": [
+            "Source",
+            "Console",
+            "TabSet1",
+            "TabSet2"
+        ],
+        "tabSet1": [
+            "Environment",
+            "History",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "Files",
+            "Plots",
+            "Packages",
+            "Help",
+            "Viewer",
+            "Presentations"
+        ],
+        "hiddenTabSet": [
+            "Connections",
+            "Build",
+            "VCS",
+            "Tutorial"
+        ],
+        "console_left_on_top": false,
+        "console_right_on_top": true,
+        "additional_source_columns": 0
+    },
+    "posix_terminal_shell": "bash",
+    "editor_theme": "Tomorrow Night Bright",
+    "show_doc_outline_rmd": true,
+    "show_rmd_render_command": true,
+    "reduced_motion": true,
+    "python_type": "system",
+    "python_version": "3.10.8",
+    "python_path": "/usr/local/bin/python3",
+    "git_exe_path": "/usr/local/bin/git"
+}

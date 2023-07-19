@@ -1,0 +1,488 @@
+2023-07-10 15:24:12,986 DEBUG    root            Metrics collector initialized...
+2023-07-10 15:24:12,992 DEBUG    root            Loaded Command Group: ['gcloud', 'components']
+2023-07-10 15:24:13,025 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'update']
+2023-07-10 15:24:13,031 DEBUG    root            Running [gcloud.components.update] with arguments: [--allow-no-backup: "True", --no-compile-python: "False", --quiet: "True", COMPONENT-IDS:6: "['alpha', 'beta', 'gke-gcloud-auth-plugin', 'kubectl', 'skaffold', 'minikube']"]
+2023-07-10 15:24:13,074 INFO     ___FILE_ONLY___ Beginning update. This process may take several minutes.
+
+2023-07-10 15:24:13,187 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-10 15:24:13,598 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 208274
+2023-07-10 15:24:13,782 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,784 INFO     ___FILE_ONLY___ 
+Your current Google Cloud CLI version is: 437.0.1
+
+2023-07-10 15:24:13,784 INFO     ___FILE_ONLY___ Installing components from version: 437.0.1
+
+2023-07-10 15:24:13,784 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,785 DEBUG    root            Chosen display Format:table[box,title="These components will be removed."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2023-07-10 15:24:13,788 DEBUG    root            Chosen display Format:table[box,title="These components will be updated."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2023-07-10 15:24:13,789 DEBUG    root            Chosen display Format:table[box,title="These components will be installed."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2023-07-10 15:24:13,801 INFO     ___FILE_ONLY___ ┌──────────────────────────────────────────────────────────────────────────────┐
+2023-07-10 15:24:13,801 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,804 INFO     ___FILE_ONLY___ │                     These components will be installed.                      │
+2023-07-10 15:24:13,804 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,806 INFO     ___FILE_ONLY___ ├─────────────────────────────────────────────────────┬────────────┬───────────┤
+2023-07-10 15:24:13,807 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,807 INFO     ___FILE_ONLY___ │                         Name                        │  Version   │    Size   │
+2023-07-10 15:24:13,807 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,807 INFO     ___FILE_ONLY___ ├─────────────────────────────────────────────────────┼────────────┼───────────┤
+2023-07-10 15:24:13,807 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,808 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,808 INFO     ___FILE_ONLY___ Google Cloud CLI Core Libraries (Platform Specific)
+2023-07-10 15:24:13,808 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,808 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,808 INFO     ___FILE_ONLY___ 2022.09.20
+2023-07-10 15:24:13,808 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,808 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,808 INFO     ___FILE_ONLY___   < 1 MiB
+2023-07-10 15:24:13,808 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,808 INFO     ___FILE_ONLY___ │
+2023-07-10 15:24:13,808 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,809 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,809 INFO     ___FILE_ONLY___ Minikube                                           
+2023-07-10 15:24:13,809 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,809 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,809 INFO     ___FILE_ONLY___     1.30.1
+2023-07-10 15:24:13,809 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,809 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,809 INFO     ___FILE_ONLY___  33.2 MiB
+2023-07-10 15:24:13,809 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,809 INFO     ___FILE_ONLY___ │
+2023-07-10 15:24:13,809 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,809 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,809 INFO     ___FILE_ONLY___ Skaffold                                           
+2023-07-10 15:24:13,810 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,810 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,810 INFO     ___FILE_ONLY___      2.5.0
+2023-07-10 15:24:13,810 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,810 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,810 INFO     ___FILE_ONLY___  24.5 MiB
+2023-07-10 15:24:13,810 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,810 INFO     ___FILE_ONLY___ │
+2023-07-10 15:24:13,810 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,810 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,810 INFO     ___FILE_ONLY___ gcloud Alpha Commands                              
+2023-07-10 15:24:13,810 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,810 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,810 INFO     ___FILE_ONLY___ 2023.06.30
+2023-07-10 15:24:13,811 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,811 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,811 INFO     ___FILE_ONLY___   < 1 MiB
+2023-07-10 15:24:13,811 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,811 INFO     ___FILE_ONLY___ │
+2023-07-10 15:24:13,811 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,811 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,811 INFO     ___FILE_ONLY___ gcloud Beta Commands                               
+2023-07-10 15:24:13,811 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,811 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,811 INFO     ___FILE_ONLY___ 2023.06.30
+2023-07-10 15:24:13,811 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,811 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,811 INFO     ___FILE_ONLY___   < 1 MiB
+2023-07-10 15:24:13,812 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,812 INFO     ___FILE_ONLY___ │
+2023-07-10 15:24:13,812 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,812 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,812 INFO     ___FILE_ONLY___ gcloud cli dependencies                            
+2023-07-10 15:24:13,812 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,812 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,812 INFO     ___FILE_ONLY___ 2021.04.16
+2023-07-10 15:24:13,812 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,812 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,812 INFO     ___FILE_ONLY___   < 1 MiB
+2023-07-10 15:24:13,812 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,812 INFO     ___FILE_ONLY___ │
+2023-07-10 15:24:13,813 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,813 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,813 INFO     ___FILE_ONLY___ gke-gcloud-auth-plugin                             
+2023-07-10 15:24:13,813 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,813 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,813 INFO     ___FILE_ONLY___      0.5.3
+2023-07-10 15:24:13,813 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,813 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,813 INFO     ___FILE_ONLY___   7.5 MiB
+2023-07-10 15:24:13,813 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,813 INFO     ___FILE_ONLY___ │
+2023-07-10 15:24:13,813 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,814 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,814 INFO     ___FILE_ONLY___ kubectl                                            
+2023-07-10 15:24:13,815 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,816 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,816 INFO     ___FILE_ONLY___     1.25.9
+2023-07-10 15:24:13,816 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,816 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,816 INFO     ___FILE_ONLY___ 112.5 MiB
+2023-07-10 15:24:13,817 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,817 INFO     ___FILE_ONLY___ │
+2023-07-10 15:24:13,817 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,817 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,817 INFO     ___FILE_ONLY___ kubectl                                            
+2023-07-10 15:24:13,817 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,817 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,818 INFO     ___FILE_ONLY___     1.25.9
+2023-07-10 15:24:13,818 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,818 INFO     ___FILE_ONLY___ │ 
+2023-07-10 15:24:13,818 INFO     ___FILE_ONLY___   < 1 MiB
+2023-07-10 15:24:13,818 INFO     ___FILE_ONLY___  
+2023-07-10 15:24:13,818 INFO     ___FILE_ONLY___ │
+2023-07-10 15:24:13,819 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,819 INFO     ___FILE_ONLY___ └─────────────────────────────────────────────────────┴────────────┴───────────┘
+2023-07-10 15:24:13,820 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,821 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:24:13,838 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-10 15:24:14,243 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/RELEASE_NOTES HTTP/1.1" 200 1024547
+2023-07-10 15:24:14,599 INFO     ___FILE_ONLY___ For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+
+2023-07-10 15:24:14,631 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-10 15:24:14,632 INFO     ___FILE_ONLY___ ╠═ Creating update staging area                             ═╣
+
+2023-07-10 15:24:14,632 INFO     ___FILE_ONLY___ ╚
+2023-07-10 15:24:14,636 INFO     ___FILE_ONLY___ ══════
+2023-07-10 15:24:14,638 INFO     ___FILE_ONLY___ ══════
+2023-07-10 15:24:14,639 INFO     ___FILE_ONLY___ ══════
+2023-07-10 15:24:15,613 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:19,129 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:20,599 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:22,262 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:23,329 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:24,312 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:25,609 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:26,699 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:27,596 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:28,758 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:29,790 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:30,782 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:31,719 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:32,788 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:34,023 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:35,256 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:36,614 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:38,409 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:40,101 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:42,027 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:43,860 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:45,765 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:47,320 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:49,363 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:51,273 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:52,824 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:55,201 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:57,563 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:24:59,049 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:00,582 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:02,073 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:03,950 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:06,035 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:08,555 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:10,281 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:13,615 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:14,027 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:14,548 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:15,217 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:15,653 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:16,162 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:17,156 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:17,156 INFO     ___FILE_ONLY___ ╝
+
+2023-07-10 15:25:26,667 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-10 15:25:26,670 INFO     ___FILE_ONLY___ ╠═ Installing: Google Cloud CLI Core Libraries (Platform... ═╣
+
+2023-07-10 15:25:26,671 INFO     ___FILE_ONLY___ ╚
+2023-07-10 15:25:26,701 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-10 15:25:27,606 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-core-nix-20220920185015.tar.gz HTTP/1.1" 200 2221
+2023-07-10 15:25:27,607 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-10 15:25:27,613 INFO     ___FILE_ONLY___ ═══════════════
+2023-07-10 15:25:27,614 INFO     ___FILE_ONLY___ ═══════════════
+2023-07-10 15:25:27,615 INFO     ___FILE_ONLY___ ╝
+
+2023-07-10 15:25:27,644 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-10 15:25:27,645 INFO     ___FILE_ONLY___ ╠═ Installing: Minikube                                     ═╣
+
+2023-07-10 15:25:27,645 INFO     ___FILE_ONLY___ ╚
+2023-07-10 15:25:27,659 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-10 15:25:28,436 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-minikube-darwin-x86_64-20230410222307.tar.gz HTTP/1.1" 200 34851037
+2023-07-10 15:25:33,844 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:33,850 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:33,856 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:33,861 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:33,866 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:33,870 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:33,874 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:33,881 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:33,885 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:33,893 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:33,898 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,145 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,149 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,152 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,215 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,222 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,227 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,236 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,247 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,261 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,268 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,274 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,492 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,512 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,526 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,587 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,604 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,614 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,627 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:34,631 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:43,383 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-10 15:25:43,384 INFO     ___FILE_ONLY___ ╝
+
+2023-07-10 15:25:43,605 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-10 15:25:43,607 INFO     ___FILE_ONLY___ ╠═ Installing: Minikube                                     ═╣
+
+2023-07-10 15:25:43,607 INFO     ___FILE_ONLY___ ╚
+2023-07-10 15:25:43,618 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2023-07-10 15:25:43,686 INFO     ___FILE_ONLY___ ╝
+
+2023-07-10 15:25:43,727 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-10 15:25:43,729 INFO     ___FILE_ONLY___ ╠═ Installing: Skaffold                                     ═╣
+
+2023-07-10 15:25:43,730 INFO     ___FILE_ONLY___ ╚
+2023-07-10 15:25:43,746 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-10 15:25:44,445 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-skaffold-darwin-x86_64-20230616150314.tar.gz HTTP/1.1" 200 25641858
+2023-07-10 15:25:48,100 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,102 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,104 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,107 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,110 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,112 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,114 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,115 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,118 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,122 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,129 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,131 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,135 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,140 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,147 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,149 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,151 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,153 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,160 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,162 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,168 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,170 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,171 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,174 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,195 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,196 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,206 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,212 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,214 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:48,219 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:50,201 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-10 15:25:50,201 INFO     ___FILE_ONLY___ ╝
+
+2023-07-10 15:25:50,234 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-10 15:25:50,235 INFO     ___FILE_ONLY___ ╠═ Installing: Skaffold                                     ═╣
+
+2023-07-10 15:25:50,236 INFO     ___FILE_ONLY___ ╚
+2023-07-10 15:25:50,248 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2023-07-10 15:25:50,249 INFO     ___FILE_ONLY___ ╝
+
+2023-07-10 15:25:50,264 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-10 15:25:50,265 INFO     ___FILE_ONLY___ ╠═ Installing: gcloud Alpha Commands                        ═╣
+
+2023-07-10 15:25:50,267 INFO     ___FILE_ONLY___ ╚
+2023-07-10 15:25:50,281 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-10 15:25:50,645 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-alpha-20230630021416.tar.gz HTTP/1.1" 200 800
+2023-07-10 15:25:50,648 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-10 15:25:50,652 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-10 15:25:50,652 INFO     ___FILE_ONLY___ ╝
+
+2023-07-10 15:25:50,694 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-10 15:25:50,695 INFO     ___FILE_ONLY___ ╠═ Installing: gcloud Beta Commands                         ═╣
+
+2023-07-10 15:25:50,695 INFO     ___FILE_ONLY___ ╚
+2023-07-10 15:25:50,717 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-10 15:25:51,083 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-beta-20230630021416.tar.gz HTTP/1.1" 200 797
+2023-07-10 15:25:51,085 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-10 15:25:51,088 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-10 15:25:51,088 INFO     ___FILE_ONLY___ ╝
+
+2023-07-10 15:25:51,119 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-10 15:25:51,122 INFO     ___FILE_ONLY___ ╠═ Installing: gcloud cli dependencies                      ═╣
+
+2023-07-10 15:25:51,129 INFO     ___FILE_ONLY___ ╚
+2023-07-10 15:25:51,158 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-10 15:25:51,538 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-gcloud-deps-darwin-x86_64-20210416153011.tar.gz HTTP/1.1" 200 105
+2023-07-10 15:25:51,539 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-10 15:25:51,541 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-10 15:25:51,542 INFO     ___FILE_ONLY___ ╝
+
+2023-07-10 15:25:51,570 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-10 15:25:51,571 INFO     ___FILE_ONLY___ ╠═ Installing: gke-gcloud-auth-plugin                       ═╣
+
+2023-07-10 15:25:51,571 INFO     ___FILE_ONLY___ ╚
+2023-07-10 15:25:51,586 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-10 15:25:52,229 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-gke-gcloud-auth-plugin-darwin-x86_64-20230509142714.tar.gz HTTP/1.1" 200 7863269
+2023-07-10 15:25:53,536 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,537 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,537 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,538 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,538 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,539 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,540 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,540 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,541 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,542 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,545 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,545 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,546 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,547 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,548 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,549 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,550 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,550 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,551 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,551 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,552 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,552 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,553 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,553 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,554 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,555 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,555 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,556 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,556 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,557 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:25:53,973 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-10 15:25:53,973 INFO     ___FILE_ONLY___ ╝
+
+2023-07-10 15:25:54,009 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-10 15:25:54,011 INFO     ___FILE_ONLY___ ╠═ Installing: gke-gcloud-auth-plugin                       ═╣
+
+2023-07-10 15:25:54,011 INFO     ___FILE_ONLY___ ╚
+2023-07-10 15:25:54,019 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2023-07-10 15:25:54,019 INFO     ___FILE_ONLY___ ╝
+
+2023-07-10 15:25:54,050 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-10 15:25:54,052 INFO     ___FILE_ONLY___ ╠═ Installing: kubectl                                      ═╣
+
+2023-07-10 15:25:54,052 INFO     ___FILE_ONLY___ ╚
+2023-07-10 15:25:54,081 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-10 15:25:54,495 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-kubectl-darwin-x86_64-20230519173220.tar.gz HTTP/1.1" 200 117920812
+2023-07-10 15:26:13,220 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:13,238 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:13,537 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:13,557 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:13,579 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:13,610 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:13,633 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:13,780 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:13,802 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:13,820 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:13,837 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:13,856 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:13,874 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,021 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,046 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,074 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,123 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,283 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,297 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,324 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,342 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,365 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,386 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,488 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,536 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,578 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,618 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,632 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,767 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:14,784 INFO     ___FILE_ONLY___ ═
+2023-07-10 15:26:25,213 INFO     ___FILE_ONLY___ ═══
+2023-07-10 15:26:26,360 INFO     ___FILE_ONLY___ ════
+2023-07-10 15:26:27,433 INFO     ___FILE_ONLY___ ════
+2023-07-10 15:26:28,556 INFO     ___FILE_ONLY___ ════
+2023-07-10 15:26:29,516 INFO     ___FILE_ONLY___ ═══
+2023-07-10 15:26:30,492 INFO     ___FILE_ONLY___ ════
+2023-07-10 15:26:31,547 INFO     ___FILE_ONLY___ ════
+2023-07-10 15:26:32,372 INFO     ___FILE_ONLY___ ════
+2023-07-10 15:26:32,373 INFO     ___FILE_ONLY___ ╝
+
+2023-07-10 15:26:32,438 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-10 15:26:32,439 INFO     ___FILE_ONLY___ ╠═ Installing: kubectl                                      ═╣
+
+2023-07-10 15:26:32,439 INFO     ___FILE_ONLY___ ╚
+2023-07-10 15:26:32,463 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-10 15:26:32,866 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-kubectl-20230519173220.tar.gz HTTP/1.1" 200 35616
+2023-07-10 15:26:32,931 INFO     ___FILE_ONLY___ ═════════════
+2023-07-10 15:26:32,932 INFO     ___FILE_ONLY___ ══════════════
+2023-07-10 15:26:32,933 INFO     ___FILE_ONLY___ ═══
+2023-07-10 15:26:32,943 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-10 15:26:32,944 INFO     ___FILE_ONLY___ ╝
+
+2023-07-10 15:26:32,986 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-10 15:26:32,987 INFO     ___FILE_ONLY___ ╠═ Creating backup and activating new installation          ═╣
+
+2023-07-10 15:26:32,987 INFO     ___FILE_ONLY___ ╚
+2023-07-10 15:26:32,991 DEBUG    root            Attempting to move directory [/Users/shubham/Library/Application Support/cloud-code/installer/google-cloud-sdk] to [/Users/shubham/Library/Application Support/cloud-code/installer/google-cloud-sdk.staging/.install/.backup]
+2023-07-10 15:26:32,991 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-10 15:26:32,992 DEBUG    root            Attempting to move directory [/Users/shubham/Library/Application Support/cloud-code/installer/google-cloud-sdk.staging] to [/Users/shubham/Library/Application Support/cloud-code/installer/google-cloud-sdk]
+2023-07-10 15:26:32,992 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-10 15:26:32,992 INFO     ___FILE_ONLY___ ╝
+
+2023-07-10 15:26:33,051 DEBUG    root            Updating notification cache...
+2023-07-10 15:26:33,052 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:26:33,074 INFO     ___FILE_ONLY___ Performing post processing steps...
+2023-07-10 15:26:33,077 DEBUG    root            Executing command: ['/usr/local/bin/python3', '-S', '/Users/shubham/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/gcloud.py', 'components', 'post-process', '--no-compile-python']
+2023-07-10 15:26:37,403 DEBUG    ___FILE_ONLY___ 
+2023-07-10 15:26:37,405 DEBUG    ___FILE_ONLY___ 
+2023-07-10 15:26:37,636 INFO     ___FILE_ONLY___ 
+Update done!
+
+
+2023-07-10 15:26:37,694 WARNING  root              There are other instances of Google Cloud tools on your system PATH.
+  Please remove the following to avoid confusion or accidental invocation:
+
+  /Applications/Docker.app/Contents/Resources/bin/kubectl
+
+  
+2023-07-10 15:26:37,706 DEBUG    root            Chosen display Format:none
+2023-07-10 15:26:37,707 INFO     root            Display format: "none"
+2023-07-10 15:26:37,742 DEBUG    root            Executing command: ['curl', '--silent', '-O', 'https://dl.google.com/dl/cloudsdk/channels/rapid/macos_python-3.7.9.tar.gz']
+2023-07-10 15:26:43,454 DEBUG    root            Executing command: ['tar', '-xf', 'macos_python-3.7.9.tar.gz']
+2023-07-10 15:26:43,683 DEBUG    root            Executing command: ['sudo', 'installer', '-target', '/', '-pkg', './python-3.7.9-macosx10.9.pkg']

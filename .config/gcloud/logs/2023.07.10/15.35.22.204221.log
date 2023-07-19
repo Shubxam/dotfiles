@@ -1,0 +1,37 @@
+2023-07-10 15:35:22,219 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2023-07-10 15:35:22,227 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2023-07-10 15:35:22,234 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json", --quiet: "True", --verbosity: "warning"]
+2023-07-10 15:35:22,288 DEBUG    root            Chosen display Format:default json
+2023-07-10 15:35:22,289 INFO     root            Display format: "default json"
+2023-07-10 15:35:22,291 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "container": {
+        "use_application_default_credentials": "true"
+      },
+      "core": {
+        "account": "shubham@tokenmetrics.com",
+        "disable_prompts": "True",
+        "disable_usage_reporting": "False",
+        "print_unhandled_tracebacks": "true",
+        "verbosity": "warning"
+      },
+      "metrics": {
+        "environment": "cloudcode.vscode",
+        "environment_version": "1.21.8"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.a0AbVbY6OEgFRN-PXO1hcvXuTSEup4haUS2PoKRbiVD9WJKQrAvKR-O_5lmv22RSpIl0K3TXgzEuiEHvOaK4mbUig8VgK2av9A1hYR-57OuTsSFM73JroyeinKKdnELbUPBHf1RnWep8TwPXpbs3MKc3qG0F6_gnKZgLXRaCgYKAYYSARASFQFWKvPlcAbtRPOlHIEKieiH-MwnzA0171",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkzNDFkZWRlZWUyZDE4NjliNjU3ZmE5MzAzMDAwODJmZTI2YjNkOTIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMyNTU1OTQwNTU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE3ODM0ODEwNDE2MDA5NDA5NDQ5IiwiaGQiOiJ0b2tlbm1ldHJpY3MuY29tIiwiZW1haWwiOiJzaHViaGFtQHRva2VubWV0cmljcy5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IjItSWJTeExDYmlpaUh1VmQ0Y3NRTGciLCJpYXQiOjE2ODg5ODM0MTcsImV4cCI6MTY4ODk4NzAxN30.EPk_qn2ihfPTvfcDtR1mKM5wzKwamDMl1MviVDRpLgtzDXI_WtNWeKElP-29757jFm8gB0e-xYDZWrqf8KwWs4n1pMTRTmvKE-pBvPWHd_LKUlSYambYLS_Do_iPn6pOK6_lyC55Krh072P4eqs4IVecosYa0Nhay3MRWG_l6LHJqAPk27_g_wwtrA5MZenYP7oXw11D-bkwumcgbGTmBuMEt1lxPy9tFGvKYxZj0A3zZq6nOa41IT1wIQgen2QW2QePfTlnn-UENpzHSS5q6JRo49Seit9arPj0m3cQj8SgHf7KNpxC-0uTdtdQy3HOq09iGv6S5o4C-BbHoN_mig",
+    "token_expiry": "2023-07-10T11:03:36Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/Users/shubham/.config/gcloud/config_sentinel"
+  }
+}
+2023-07-10 15:35:22,291 INFO     ___FILE_ONLY___ 
+
+2023-07-10 15:35:22,311 DEBUG    root            Metrics reporting process started...

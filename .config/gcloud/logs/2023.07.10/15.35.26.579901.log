@@ -1,0 +1,8 @@
+2023-07-10 15:35:26,609 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2023-07-10 15:35:26,643 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'get']
+2023-07-10 15:35:26,646 DEBUG    root            Running [gcloud.config.get] with arguments: [SECTION/PROPERTY: "project"]
+2023-07-10 15:35:26,647 INFO     ___FILE_ONLY___ (unset)
+
+2023-07-10 15:35:26,648 DEBUG    root            Chosen display Format:value(.)
+2023-07-10 15:35:26,648 INFO     root            Display format: "value(.)"
+2023-07-10 15:35:26,829 DEBUG    root            Metrics reporting process started...
