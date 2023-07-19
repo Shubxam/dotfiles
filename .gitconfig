@@ -1,0 +1,26 @@
+[user]
+	name = Shubham Soni
+	email = shubxam@gmail.com
+[credential]
+	helper = osxkeychain
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[pull]
+	rebase = merges
+[core]
+	excludesFile = /Users/shubham/.gitignore_global
+[init]
+	defaultBranch = main
+[grep]
+	lineNumber = true
+[alias]
+	g = grep --break --heading --line-number
+[http]
+	postBuffer = 157286400
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[credential "https://dev.azure.com"]
+	useHttpPath = true
