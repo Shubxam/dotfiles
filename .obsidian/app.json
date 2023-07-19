@@ -1,0 +1,27 @@
+{
+  "communityThemeSortOrder": "release",
+  "communityPluginSortOrder": "download",
+  "attachmentFolderPath": "./img",
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "newFileLocation": "root",
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "preview",
+  "livePreview": true,
+  "readableLineLength": false,
+  "strictLineBreaks": false,
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "showIndentGuide": false,
+  "lineWrap": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  },
+  "vimMode": true,
+  "autoConvertHtml": false,
+  "showUnsupportedFiles": false,
+  "promptDelete": false
+}

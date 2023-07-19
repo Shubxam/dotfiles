@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "3639c8b6c8ac083d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0567f7698d0d19b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Tech/Docker.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f945089aa66f435a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6e8f1f6b38a49da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f072a362b2c9999e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "431aab0a4ea467cc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 174
+  },
+  "right": {
+    "id": "a5d4bbbd281443d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d4c5d8375b2b106",
+        "type": "tabs",
+        "dimension": 36.60062565172054,
+        "children": [
+          {
+            "id": "f0da601170b36498",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "c607edc3f882624c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "dd9973b9787edb4e",
+        "type": "tabs",
+        "dimension": 63.39937434827946,
+        "children": [
+          {
+            "id": "33be9ef97da6fe79",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tech/Docker.md"
+              }
+            }
+          },
+          {
+            "id": "b48b1c113ca89202",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tech/Docker.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a9c676be996ce2b6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tech/Docker.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 272.5
+  },
+  "active": "d0567f7698d0d19b",
+  "lastOpenFiles": [
+    "Tech/Python.md",
+    "Tech/Diagrams.md",
+    "Finance/Resources.md",
+    "Data-Viz/bookmarks.md",
+    "Finance/QuantitativeAnalyst.md",
+    "Finance/readme.md",
+    "Finance/Todos.md",
+    "Finance/FinancialStatements.md",
+    "Finance/CorporateFinance.md.md",
+    "Finance/Projects.md"
+  ]
+}
