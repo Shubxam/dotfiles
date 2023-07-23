@@ -76,3 +76,9 @@ eval "$(register-python-argcomplete pipx)"
 
 # removes warning that zsh is default shell in mac
 export BASH_SILENCE_DEPRECATION_WARNING=1
+# -----------------------------
+# Git autocompletion <https://www.macinstruct.com/tutorials/how-to-enable-git-tab-autocomplete-on-your-mac/>
+#
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
